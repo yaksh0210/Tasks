@@ -1,0 +1,5 @@
+[target]
+ansible_connection=ssh ansible_host=192.168.232.216 ansible_user=yaksh ansible_ssh_pass=ubu
+
+[web]
+ansible_connection=ssh ansible_host=192.168.233.77 ansible_user=yaksh ansible_ssh_pass=ubu

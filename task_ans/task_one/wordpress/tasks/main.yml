@@ -1,0 +1,14 @@
+---
+- name: Download and extract WordPress
+  unarchive:
+    src: https://wordpress.org/latest.tar.gz
+    dest: /var/www/html/
+    remote_src: yes
+    creates: /var/www/html/wordpress
+
+- name: WordPress directory
+  file:
+    path: /var/www/html/wordpress
+    owner: www-data
+    group: www-data
+    recurse: yes
