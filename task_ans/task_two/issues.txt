@@ -1,0 +1,9 @@
+#missing commands and error
+
+#sudo apt install php-mysqli
+
+#sudo apt install php-pdo-mysql
+
+#sudo systemctl restart apache2
+
+#configuration error on Virtual machine at /etc/apache2/site-enable (path error of www/html/wordpress)
