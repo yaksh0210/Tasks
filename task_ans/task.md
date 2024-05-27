@@ -1,7 +1,14 @@
 # Ansible TASKS 
 
-+ install and launch apache-server on target machine
-+ install and launch wordpress and mysql on target machine using ansible-roles 
+> Task 1 :-
 
-* connect wordpress with mysql using ansible-roles
+```Install and launch apache-server on target machine ```
+
+> Task 2 :-
+
+```install and launch wordpress and mysql on target machine using ansible-roles ```
+
+> Task 3 :-
+
+``` connect wordpress with mysql using ansible-roles ```
 
