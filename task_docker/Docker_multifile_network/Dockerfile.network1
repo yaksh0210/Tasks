@@ -1,0 +1,6 @@
+FROM ubuntu
+
+RUN apt-get update 
+RUN apt-get install -y iputils-ping
+
+CMD ["sh", "-c", "ping -i 5 172.21.0.2"]
